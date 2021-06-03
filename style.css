@@ -1,0 +1,84 @@
+/******************************************
+*  Author : mcunkelman   
+*  Created On : Thu Jun 03 2021
+*  File : style.css.css
+*******************************************/
+*{
+    background-color: #052e62;
+    color: #eeeee4;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #052e62;
+    color: #eeeee4;
+    padding: 1vw;
+    margin: 0;
+}
+header h1{
+    background-color: #052e62;
+    color: #eeeee4;
+    font-size: 8vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+header h2{
+    background-color: #052e62;
+    color: #eeeee4;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: inline-block;
+    width: 100%;
+    background-color: #052e62;
+    color: #eeeee4;
+    font-size: 2vw;
+    padding: 0.5vw;
+}
+#menu{
+    display: inline;
+    background-color: #052e62;
+    color: #eeeee4;
+    text-align: center;
+}
+#menu .activetab{
+    background-color: #eeeee4;
+    color: #052e62;
+}
+#menu .activetab:hover{
+    background-color: #ff8500;
+}
+nav ul{
+    list-style-type: none;
+    background-color: inherit;
+    color: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+}
+nav li{
+    background-color: inherit;
+    color: inherit;
+    display: inline;
+    border-radius: 7px;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 3vw;
+    padding: 5px;
+}
+nav li:hover{
+    color: #052e62;
+    background-color: #ff8500;
+}
+nav a{
+    text-decoration: none;
+    background-color: inherit;
+    color: inherit;
+}
