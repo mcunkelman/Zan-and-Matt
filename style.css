@@ -105,6 +105,20 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
+#text .intro{
+    background-color: inherit;
+    color: inherit;
+    font-size: 1.25em;
+    text-align: center;
+}
+#text .address{
+    font-size: 1.25em;
+    text-align: center;
+}
+#text a{
+    color: #ff8500;
+    font-size: inherit;
+}
 p{
     width: 100%;
     background-color: inherit;
