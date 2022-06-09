@@ -44,7 +44,7 @@ nav{
     width: 100%;
     background-color: #052e62;
     color: #eeeee4;
-    font-size: 2rem;
+    font-size: 1.75rem;
     padding: 0.5rem;
 }
 #menu{
@@ -75,10 +75,10 @@ nav li{
     color: inherit;
     display: inline;
     border-radius: 7px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
     font-size: 3vw;
-    padding: 5px;
+    padding: 3px;
 }
 nav li:hover{
     color: #052e62;
@@ -143,6 +143,22 @@ p{
     text-align: center;
 
 }
+#text .todo{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+ul{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+ul ul{
+    width: 80%
+}
 @media only screen and (max-width: 400px) {
     header h1{
         font-size: 2rem;
@@ -167,7 +183,7 @@ p{
         list-style-type: none;
     }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
     header h1{
         font-size: 6rem;
     }
@@ -178,9 +194,6 @@ p{
         margin-left: 2.25rem;
         margin-right: 2.25rem;
         font-size: 2.25rem;
-    }
-    #recipe ul{
-        list-style-type: none;
     }
     nav ul{
         list-style-type: none;
