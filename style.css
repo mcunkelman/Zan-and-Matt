@@ -9,6 +9,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    max-width: 1400px;
 }
 body{
     background-color: #052e62;
@@ -19,6 +20,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    max-width: 1400px;
     
 }
 
