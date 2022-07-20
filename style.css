@@ -141,14 +141,21 @@ p{
     color: inherit;
     font-size: 5vw;
     text-align: center;
-
 }
+
 #text .todo{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10%;
     padding-right: 10%;
+}
+#text .topic{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
 }
 ul{
     width: 100%;
